@@ -1,5 +1,5 @@
-from flask import Flask , render_template
 from sqlalchemy import create_engine
+from flask import Flask, render_template, url_for, request
 from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Restaurant, MenuItem
 
@@ -28,9 +28,20 @@ def newMenuItem(restaurant_id):
 
 # Task 2: Create route for editMenuItem function here
 
-@app.route('/restaurants/<int:restaurant_id>/<int:menu_id>/edit')
-def editMenuItem(restaurant_id, menu_id):
-    return "page to edit a menu item. Task 2 complete!"
+@app.route('/restaurants/<int:restaurant_id>/<int:MenuID>/edit')
+def editMenuItem(restaurant_id, MenuID, methods=['GET', 'POST']):
+    editedItem = session.query(MenuItem).filter_by(id=MenuID).one()
+    restaurant = session.query(Restaurant).filter_by(id=restaurant_id).one()
+    if request.method == 'POST':
+        if request.form['name']:
+            editedItem.name = request.form['name']
+        session.add(editedItem)
+        session.commit()
+        return redirect(url_for('restaurantMenu', restaurant_id=restaurant_id))
+    else:
+        return render_template(
+            'editmenuitem.html', restaurant_id=restaurant_id, MenuID = MenuID,
+            item = editedItem)
 
 # Task 3: Create a route for deleteMenuItem function here
 

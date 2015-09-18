@@ -1,0 +1,508 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"message",
+				"messagecontent"
+			],
+			[
+				"new",
+				"new_restaurant"
+			],
+			[
+				"played",
+				"played"
+			],
+			[
+				"alr",
+				"already_played"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "projectwithextendedcomments.py",
+			"settings":
+			{
+				"buffer_size": 803,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project_lesson_3_2.py",
+			"settings":
+			{
+				"buffer_size": 1420,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project.py",
+			"settings":
+			{
+				"buffer_size": 1411,
+				"line_ending": "Windows",
+				"name": "from flask import Flask"
+			}
+		},
+		{
+			"file": "lotsofmenus.py",
+			"settings":
+			{
+				"buffer_size": 13992,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "restaurant_webserver.py",
+			"settings":
+			{
+				"buffer_size": 7606,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "displayrestaurants.py",
+			"settings":
+			{
+				"buffer_size": 521,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/menu.html",
+			"settings":
+			{
+				"buffer_size": 391,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "database_setup.py",
+			"settings":
+			{
+				"buffer_size": 1213,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 50.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/J/fullstack/vagrant/restaurant/webserver.py",
+		"/J/fullstack/vagrant/restaurant/restaurant_webserver_old_mine.py",
+		"/J/fullstack/vagrant/restaurant/restaurant_webserver.py",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/J/fullstack/vagrant/restaurant/lotsofmenus.py",
+		"/J/fullstack/vagrant/restaurant/restaurantmenu.db",
+		"/J/fullstack/vagrant/restaurant/database_setup.pyc",
+		"/I/Dropbox/Dropbox/Cursos/Automate Python/Login_youtube_tutorial.py/login.py",
+		"/I/Dropbox/Dropbox/Cursos/Automate Python/New folder/First Sublime Project.sublime-project",
+		"/I/Dropbox/Dropbox/Cursos/Automate Python/FirstWebScraper.py",
+		"/I/Dropbox/Dropbox/Cursos/Python For Kids/turtle square.py",
+		"/I/Dropbox/Dropbox/Cursos/Python For Kids/Ch.13 Game Bounce/paddlegame.py",
+		"/I/Dropbox/Dropbox/Cursos/Python For Kids/turtle rectangle.py",
+		"/I/Dropbox/Dropbox/Cursos/Python For Kids/turtle box no corners.py",
+		"/I/Dropbox/Dropbox/Cursos/Python For Kids/print 'Hello World'.py",
+		"/C/Users/Z/Desktop/Python Automation/Book Practice/mapIt.py",
+		"/C/Users/Z/Desktop 4/Social Pages.bat",
+		"/C/Users/Z/Desktop/Python Automation/MovieReviewSearcher.py",
+		"/C/Users/Z/Books/Python and AWS Cookbook.epub",
+		"/I/Videos/Learning Courses/Lynda - Design the Web_ From Illustrator to HTML5 Canvas - MG/e-ldtwfithtml5.r00",
+		"/C/RICSWIN/ZACA-RICS 2015-07-30 003230 Category List .scn",
+		"/I/Dropbox/Dropbox/fullstack/vagrant/tournament/tournament.sql",
+		"/I/Dropbox/Dropbox/fullstack/vagrant/tournament/tournament_test.py",
+		"/I/Dropbox/Dropbox/fullstack/vagrant/tournament/tournament.py",
+		"/C/RICSWIN/configfotoshtm.cfg",
+		"/C/Users/Z/Desktop/Python Automation/EntertainMe.py",
+		"/I/Dropbox/Dropbox/Cursos/Udacity/Courses/Full_Stack_Foundations/Lesson_1/Problem_Set_1/PuppyShelters.py",
+		"/I/Dropbox/Dropbox/Cursos/Udacity/Courses/Full_Stack_Foundations/Lesson_1/Problem_Set_1/puppypopulator.py",
+		"/C/Users/Z/AppData/Roaming/Sublime Text 2/Packages/Python/Python.sublime-build",
+		"/I/Dropbox/Dropbox/Cursos/Udacity/Courses/Full_Stack_Foundations/Lesson_1/Problem_Set_1/hello",
+		"/I/Dropbox/Dropbox/Cursos/Udacity/Courses/Full Stack Foundations/Lesson_1/Problem_Set_1/PuppyShelters.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"updatePl",
+			"already"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "projectwithextendedcomments.py",
+					"settings":
+					{
+						"buffer_size": 803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "project_lesson_3_2.py",
+					"settings":
+					{
+						"buffer_size": 1420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								920,
+								871
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "project.py",
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								929,
+								929
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from flask import Flask",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "lotsofmenus.py",
+					"settings":
+					{
+						"buffer_size": 13992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4720,
+								4720
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1694.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "restaurant_webserver.py",
+					"settings":
+					{
+						"buffer_size": 7606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4111,
+								4134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "displayrestaurants.py",
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/menu.html",
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "database_setup.py",
+					"settings":
+					{
+						"buffer_size": 1213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								919,
+								919
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 366.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/I/Dropbox/Dropbox/Cursos/Automate Python/Login_youtube_tutorial.py/Login Youtube Tutorial.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

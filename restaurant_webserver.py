@@ -20,15 +20,11 @@ class webserverHandler(BaseHTTPRequestHandler):
                 self.send_header('Content-type', 'text/html')
                 self.end_headers()
 
-                engine = create_engine('sqlite:///restaurantmenu.db')
-                Base.metadata.bind = engine
-                DBSession = sessionmaker(bind=engine)
-                session = DBSession()
 
                 output = ''
                 output += '<html><body>'
                 output += "<form method= 'POST' enctype='multipart/form-data' \
-                    action ='hello'><h2>Make a New Restaurant</h2><input\
+                    action ='new'><h2>Make a New Restaurant</h2><input\
                     name='message' type='text' ><input type='submit' value=\
                     'Create'> </form>"
                 output += '<br><a href= "http://localhost:8080/restaurants">'
@@ -122,16 +118,29 @@ class webserverHandler(BaseHTTPRequestHandler):
 
                 output = ''
                 output += "<html><body>"
-                output += "<h2> You have entered the following new Restaurant! </h2>"
+                output += "<h2> You have added the following new Restaurant </h2>"
                 output += "<h1> %s </h1>" % messagecontent[0]
 
                 output += "<form method= 'POST' enctype='multipart/form-data' \
-                    action ='hello'><h2>What would you like to say?</h2><input\
+                    action ='hello'><h2>Would you like to add another?</h2><input\
                      name='message' type='text' ><input type='submit' value=\
                      'Submit'> </form>"
+                output += '<br><a href= "http://localhost:8080/restaurants">'
+                output += ' Back to Restaurants Home</a><br><br><br>'
                 output += "</body></html>"
                 self.wfile.write(output)
+
+                new_restaurant = Restaurant(name = messagecontent)
+
+                engine = create_engine('sqlite:///restaurantmenu.db')
+                Base.metadata.bind = engine
+                DBSession = sessionmaker(bind=engine)
+                session = DBSession()
+                session.add(new_restaurant)
+                session.commit
+
                 print output
+
         except:
             pass
 

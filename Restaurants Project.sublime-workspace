@@ -40,10 +40,18 @@
 			}
 		},
 		{
+			"file": "Restaurants Project.sublime-workspace",
+			"settings":
+			{
+				"buffer_size": 9768,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "project.py",
 			"settings":
 			{
-				"buffer_size": 1411,
+				"buffer_size": 2488,
 				"line_ending": "Windows",
 				"name": "from flask import Flask"
 			}
@@ -60,7 +68,7 @@
 			"file": "restaurant_webserver.py",
 			"settings":
 			{
-				"buffer_size": 7606,
+				"buffer_size": 14434,
 				"line_ending": "Windows"
 			}
 		},
@@ -76,7 +84,7 @@
 			"file": "templates/menu.html",
 			"settings":
 			{
-				"buffer_size": 391,
+				"buffer_size": 389,
 				"line_ending": "Windows"
 			}
 		},
@@ -180,7 +188,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -221,13 +229,15 @@
 						"selection":
 						[
 							[
-								920,
-								871
+								745,
+								745
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 270.0,
@@ -237,18 +247,45 @@
 				},
 				{
 					"buffer": 2,
-					"file": "project.py",
+					"file": "Restaurants Project.sublime-workspace",
 					"settings":
 					{
-						"buffer_size": 1411,
+						"buffer_size": 9768,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								929,
-								929
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "project.py",
+					"settings":
+					{
+						"buffer_size": 2488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -271,7 +308,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "lotsofmenus.py",
 					"settings":
 					{
@@ -297,19 +334,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "restaurant_webserver.py",
 					"settings":
 					{
-						"buffer_size": 7606,
+						"buffer_size": 14434,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4111,
-								4134
+								0,
+								0
 							]
 						],
 						"settings":
@@ -331,7 +368,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "displayrestaurants.py",
 					"settings":
 					{
@@ -357,19 +394,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "templates/menu.html",
 					"settings":
 					{
-						"buffer_size": 391,
+						"buffer_size": 389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95,
-								95
+								0,
+								0
 							]
 						],
 						"settings":
@@ -389,7 +426,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "database_setup.py",
 					"settings":
 					{
@@ -494,7 +531,7 @@
 		[
 			[
 				"",
-				"/I/Dropbox/Dropbox/Cursos/Automate Python/Login_youtube_tutorial.py/Login Youtube Tutorial.sublime-project"
+				"/I/Dropbox/Dropbox/Cursos/Automate Python/New folder/First Sublime Project.sublime-project"
 			]
 		],
 		"width": 380.0

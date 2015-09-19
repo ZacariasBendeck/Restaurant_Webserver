@@ -37,6 +37,7 @@ def newMenuItem(restaurant_id):
 def editMenuItem(restaurant_id, MenuID):
     editedItem = session.query(MenuItem).filter_by(id=MenuID).one()
     if request.method == 'POST':
+        editedItem.name = request.form['name']
         session.add(editedItem)
         session.commit()
         return redirect(url_for('restaurantMenu', restaurant_id=restaurant_id))
